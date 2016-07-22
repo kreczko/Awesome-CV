@@ -356,6 +356,9 @@
 % Usage: \letterclosing{<message>}
 \newcommand*{\letterclosing}[1]{\def\@letterclosing{#1}}
 
+% Defines a graphic to be included as the signature
+\newcommand*{\lettersignature}[1]{\def\@lettersignature{#1}}
+
 % Defines an enclosure for letter (cover letter only, optional)
 % Usage: \letterenclosure[<enclosure name>]{<enclosure>}
 \newcommand*{\letterenclname}[1][Enclosure]{\def\@letterenclname{#1}}
